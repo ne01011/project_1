@@ -5,7 +5,7 @@ body {
 }
 
 .title{
-    text-align:center;
+    text-align: center;
     font: weight 600px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: normal;
@@ -31,4 +31,22 @@ ol{
     list-style-position: inside;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+}
+
+.table{
+width:  100%;
+border: 1px solid #333;
+border-collapse: collapse;
+
+}
+
+.table th{
+text-align: left;
+padding: 5px;
+color: brown;
+}
+.table td{
+padding: 5px;
+border: 1px dashed #333;
+
 }
